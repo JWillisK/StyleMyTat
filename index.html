@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style My Tat</title>
+</head>
+<body>
+  <h1>Style My Tat</h1>
+  <p>Upload a photo to generate an AI-styled tattoo concept.</p>
+
+  <form id="upload-form">
+    <input type="file" id="file-input" accept="image/*">
+    <button type="submit">Upload</button>
+  </form>
+
+  <div id="preview">
+    <h2>Preview</h2>
+    <img id="preview-img" src="#" alt="Preview of the uploaded image" style="display:none">
+  </div>
+
+  <div id="result">
+    <h2>Generated Tattoo Concept</h2>
+    <img id="result-img" src="#" alt="AI-generated tattoo concept" style="display:none">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
